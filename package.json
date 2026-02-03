@@ -1,0 +1,27 @@
+{
+  "name": "token-counter",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.mjs",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@lenml/tokenizer-claude": "^3.7.2",
+    "@lenml/tokenizer-gemini": "^3.7.2",
+    "@lenml/tokenizer-gpt4o": "^3.7.2",
+    "next": "^16.1.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.19.0",
+    "eslint-config-next": "^16.1.6",
+    "typescript": "^5.8.3"
+  }
+}
