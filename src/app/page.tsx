@@ -126,7 +126,7 @@ export default function Page() {
 
   return (
     <main className="container">
-      <h1 className="h1">Token Calculator (offline estimate)</h1>
+      <h1 className="h1">Token Calculator</h1>
       <p className="sub">
         Counts plain-text tokens only (no chat message template overhead). Prices in USD per token.
       </p>
