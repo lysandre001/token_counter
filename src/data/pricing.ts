@@ -20,7 +20,7 @@ export type ModelPricing = {
 };
 
 /** Last update date of the price table (for display) */
-export const PRICE_UPDATE_DATE = "2026-02-03";
+export const PRICE_UPDATE_DATE = "2026-04-24";
 
 /** CSV table path (copied to out/ on static export) */
 export const PRICE_TABLE_CSV_URL = "/pricing_models.csv";

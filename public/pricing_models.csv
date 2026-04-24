@@ -1,140 +1,182 @@
 官网链接,供应商,模型名称,输入价格(USD/1M tokens or per-unit),输出价格(USD/1M tokens or per-unit),单位输入价格(USD/token),单位输出价格(USD/token)
-https://claude.com/pricing#api,Anthropic,Opus 4.5,5,25,0.000005,0.000025
-https://claude.com/pricing#api,Anthropic,Opus 4.5 (Prompt caching - Write),6.25,,0.00000625,
-https://claude.com/pricing#api,Anthropic,Opus 4.5 (Prompt caching - Read),0.5,,0.0000005,
-https://claude.com/pricing#api,Anthropic,Sonnet 4.5 (≤200K tokens),3,15,0.000003,0.000015
-https://claude.com/pricing#api,Anthropic,Sonnet 4.5 (>200K tokens),6,22.5,0.000006,0.0000225
-https://claude.com/pricing#api,Anthropic,Sonnet 4.5 (≤200K, Caching Write),3.75,,0.00000375,
-https://claude.com/pricing#api,Anthropic,Sonnet 4.5 (≤200K, Caching Read),0.3,,0.0000003,
-https://claude.com/pricing#api,Anthropic,Sonnet 4.5 (>200K, Caching Write),7.5,,0.0000075,
-https://claude.com/pricing#api,Anthropic,Sonnet 4.5 (>200K, Caching Read),0.6,,0.0000006,
-https://claude.com/pricing#api,Anthropic,Haiku 4.5,1,5,0.000001,0.000005
-https://claude.com/pricing#api,Anthropic,Haiku 4.5 (Prompt caching - Write),1.25,,0.00000125,
-https://claude.com/pricing#api,Anthropic,Haiku 4.5 (Prompt caching - Read),0.1,,0.0000001,
-https://claude.com/pricing#api,Anthropic,Opus 4.1,15,75,0.000015,0.000075
-https://claude.com/pricing#api,Anthropic,Opus 4.1 (Prompt caching - Write),18.75,,0.00001875,
-https://claude.com/pricing#api,Anthropic,Opus 4.1 (Prompt caching - Read),1.5,,0.0000015,
-https://claude.com/pricing#api,Anthropic,Sonnet 4,3,15,0.000003,0.000015
-https://claude.com/pricing#api,Anthropic,Sonnet 4 (Prompt caching - Write),3.75,,0.00000375,
-https://claude.com/pricing#api,Anthropic,Sonnet 4 (Prompt caching - Read),0.3,,0.0000003,
-https://claude.com/pricing#api,Anthropic,Opus 4,15,75,0.000015,0.000075
-https://claude.com/pricing#api,Anthropic,Opus 4 (Prompt caching - Write),18.75,,0.00001875,
-https://claude.com/pricing#api,Anthropic,Opus 4 (Prompt caching - Read),1.5,,0.0000015,
-https://claude.com/pricing#api,Anthropic,Haiku 3,0.25,1.25,0.00000025,0.00000125
-https://claude.com/pricing#api,Anthropic,Haiku 3 (Prompt caching - Write),0.3,,0.0000003,
-https://claude.com/pricing#api,Anthropic,Haiku 3 (Prompt caching - Read),0.03,,0.00000003,
-https://openai.com/api/pricing/,OpenAI,GPT-5.2,1.75,14,0.00000175,0.000014
-https://openai.com/api/pricing/,OpenAI,GPT-5.2 (Cached input),0.175,,0.000000175,
-https://openai.com/api/pricing/,OpenAI,GPT-5.2 pro,21,168,0.000021,0.000168
-https://openai.com/api/pricing/,OpenAI,GPT-5 mini,0.25,2,0.00000025,0.000002
-https://openai.com/api/pricing/,OpenAI,GPT-5 mini (Cached input),0.025,,0.000000025,
-https://openai.com/api/pricing/,OpenAI,gpt-4.1 (fine-tuning inference),3,12,0.000003,0.000012
-https://openai.com/api/pricing/,OpenAI,GPT-4.1 (Fine-tuning, Cached),0.75,,0.00000075,
-https://openai.com/api/pricing/,OpenAI,GPT-4.1 (Training),25,,0.000025,
-https://openai.com/api/pricing/,OpenAI,gpt-4.1-mini (fine-tuning inference),0.8,3.2,0.0000008,0.0000032
-https://openai.com/api/pricing/,OpenAI,GPT-4.1 mini (Fine-tuning, Cached),0.2,,0.0000002,
-https://openai.com/api/pricing/,OpenAI,GPT-4.1 mini (Training),5,,0.000005,
-https://openai.com/api/pricing/,OpenAI,gpt-4.1-nano (fine-tuning inference),0.2,0.8,0.0000002,0.0000008
-https://openai.com/api/pricing/,OpenAI,GPT-4.1 nano (Fine-tuning, Cached),0.05,,0.00000005,
-https://openai.com/api/pricing/,OpenAI,GPT-4.1 nano (Training),1.5,,0.0000015,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.7,5,25,0.000005,0.000025
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.7 (Prompt caching - 5min Write),6.25,,0.00000625,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.7 (Prompt caching - 1hr Write),10,,0.00001,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.7 (Prompt caching - Read),0.5,,0.0000005,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.6,5,25,0.000005,0.000025
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.6 (Prompt caching - 5min Write),6.25,,0.00000625,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.6 (Prompt caching - 1hr Write),10,,0.00001,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.6 (Prompt caching - Read),0.5,,0.0000005,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.5,5,25,0.000005,0.000025
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.5 (Prompt caching - 5min Write),6.25,,0.00000625,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.5 (Prompt caching - 1hr Write),10,,0.00001,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.5 (Prompt caching - Read),0.5,,0.0000005,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.1,15,75,0.000015,0.000075
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.1 (Prompt caching - 5min Write),18.75,,0.00001875,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.1 (Prompt caching - 1hr Write),30,,0.00003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.1 (Prompt caching - Read),1.5,,0.0000015,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4,15,75,0.000015,0.000075
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4 (Prompt caching - 5min Write),18.75,,0.00001875,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4 (Prompt caching - 1hr Write),30,,0.00003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4 (Prompt caching - Read),1.5,,0.0000015,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.6,3,15,0.000003,0.000015
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.6 (Prompt caching - 5min Write),3.75,,0.00000375,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.6 (Prompt caching - 1hr Write),6,,0.000006,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.6 (Prompt caching - Read),0.3,,0.0000003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.5,3,15,0.000003,0.000015
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.5 (Prompt caching - 5min Write),3.75,,0.00000375,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.5 (Prompt caching - 1hr Write),6,,0.000006,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4.5 (Prompt caching - Read),0.3,,0.0000003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4,3,15,0.000003,0.000015
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4 (Prompt caching - 5min Write),3.75,,0.00000375,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4 (Prompt caching - 1hr Write),6,,0.000006,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Sonnet 4 (Prompt caching - Read),0.3,,0.0000003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 4.5,1,5,0.000001,0.000005
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 4.5 (Prompt caching - 5min Write),1.25,,0.00000125,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 4.5 (Prompt caching - 1hr Write),2,,0.000002,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 4.5 (Prompt caching - Read),0.1,,0.0000001,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3.5,0.8,4,0.0000008,0.000004
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3.5 (Prompt caching - 5min Write),1,,0.000001,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3.5 (Prompt caching - 1hr Write),1.6,,0.0000016,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3.5 (Prompt caching - Read),0.08,,0.00000008,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3,0.25,1.25,0.00000025,0.00000125
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3 (Prompt caching - 5min Write),0.3,,0.0000003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3 (Prompt caching - 1hr Write),0.5,,0.0000005,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Haiku 3 (Prompt caching - Read),0.03,,0.00000003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.6 (Fast mode input),30,,0.00003,
+https://docs.anthropic.com/en/docs/about-claude/pricing,Anthropic,Opus 4.6 (Fast mode output),,150,,0.00015
+https://openai.com/api/pricing/,OpenAI,gpt-5.4,2.5,15,0.0000025,0.000015
+https://openai.com/api/pricing/,OpenAI,gpt-5.4 (Cached input),0.25,,0.00000025,
+https://openai.com/api/pricing/,OpenAI,gpt-5.4 (Long context input),5,22.5,0.000005,0.0000225
+https://openai.com/api/pricing/,OpenAI,gpt-5.4 (Long context cached input),0.5,,0.0000005,
+https://openai.com/api/pricing/,OpenAI,gpt-5.4-mini,0.75,4.5,0.00000075,0.0000045
+https://openai.com/api/pricing/,OpenAI,gpt-5.4-mini (Cached input),0.075,,0.000000075,
+https://openai.com/api/pricing/,OpenAI,gpt-5.4-nano,0.2,1.25,0.0000002,0.00000125
+https://openai.com/api/pricing/,OpenAI,gpt-5.4-nano (Cached input),0.02,,0.00000002,
+https://openai.com/api/pricing/,OpenAI,gpt-5.4-pro,30,180,0.00003,0.00018
+https://openai.com/api/pricing/,OpenAI,gpt-5.4-pro (Long context input),60,270,0.00006,0.00027
+https://openai.com/api/pricing/,OpenAI,gpt-5.3-chat-latest (ChatGPT specialized),1.75,14,0.00000175,0.000014
+https://openai.com/api/pricing/,OpenAI,gpt-5.3-chat-latest (Cached input),0.175,,0.000000175,
+https://openai.com/api/pricing/,OpenAI,gpt-5.3-codex (Codex specialized),1.75,14,0.00000175,0.000014
+https://openai.com/api/pricing/,OpenAI,gpt-5.3-codex (Cached input),0.175,,0.000000175,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-1.5 (Realtime audio),32,64,0.000032,0.000064
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-1.5 (Audio cached input),0.4,,0.0000004,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-1.5 (Realtime text),4,16,0.000004,0.000016
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-1.5 (Text cached input),0.4,,0.0000004,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-1.5 (Realtime image input only),5,,0.000005,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-1.5 (Image cached input),0.5,,0.0000005,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Realtime audio),10,20,0.00001,0.00002
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Audio cached input),0.3,,0.0000003,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Realtime text),0.6,2.4,0.0000006,0.0000024
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Text cached input),0.06,,0.00000006,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Realtime image input only),0.8,,0.0000008,
+https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Image cached input),0.08,,0.00000008,
+https://openai.com/api/pricing/,OpenAI,gpt-image-2 (Image Gen image),8,30,0.000008,0.00003
+https://openai.com/api/pricing/,OpenAI,gpt-image-2 (Image cached input),2,,0.000002,
+https://openai.com/api/pricing/,OpenAI,gpt-image-2 (Image Gen text input only),5,,0.000005,
+https://openai.com/api/pricing/,OpenAI,gpt-image-2 (Text cached input),1.25,,0.00000125,
+https://openai.com/api/pricing/,OpenAI,gpt-image-1.5 (Image Gen image),8,32,0.000008,0.000032
+https://openai.com/api/pricing/,OpenAI,gpt-image-1.5 (Image cached input),2,,0.000002,
+https://openai.com/api/pricing/,OpenAI,gpt-image-1.5 (Image Gen text),5,10,0.000005,0.00001
+https://openai.com/api/pricing/,OpenAI,gpt-image-1.5 (Text cached input),1.25,,0.00000125,
+https://openai.com/api/pricing/,OpenAI,gpt-image-1-mini (Image Gen image),2.5,8,0.0000025,0.000008
+https://openai.com/api/pricing/,OpenAI,gpt-image-1-mini (Image cached input),0.25,,0.00000025,
+https://openai.com/api/pricing/,OpenAI,gpt-image-1-mini (Image Gen text input only),2,,0.000002,
+https://openai.com/api/pricing/,OpenAI,gpt-image-1-mini (Text cached input),0.2,,0.0000002,
+https://openai.com/api/pricing/,OpenAI,sora-2 (720p output USD/second),,0.1,,
+https://openai.com/api/pricing/,OpenAI,sora-2-pro (720p output USD/second),,0.3,,
+https://openai.com/api/pricing/,OpenAI,sora-2-pro (1024p output USD/second),,0.5,,
+https://openai.com/api/pricing/,OpenAI,sora-2-pro (1080p output USD/second),,0.7,,
+https://openai.com/api/pricing/,OpenAI,gpt-4o-transcribe (Transcription),2.5,10,0.0000025,0.00001
+https://openai.com/api/pricing/,OpenAI,gpt-4o-mini-transcribe (Transcription),1.25,5,0.00000125,0.000005
 https://openai.com/api/pricing/,OpenAI,o4-mini (reinforcement fine-tuning inference),4,16,0.000004,0.000016
 https://openai.com/api/pricing/,OpenAI,o4-mini (Cached input),1,,0.000001,
-https://openai.com/api/pricing/,OpenAI,gpt-realtime (Realtime text),4,16,0.000004,0.000016
-https://openai.com/api/pricing/,OpenAI,gpt-realtime (Text, Cached),0.4,,0.0000004,
-https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Realtime text),0.6,2.4,0.0000006,0.0000024
-https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Text, Cached),0.06,,0.00000006,
-https://openai.com/api/pricing/,OpenAI,gpt-realtime (Realtime audio),32,64,0.000032,0.000064
-https://openai.com/api/pricing/,OpenAI,gpt-realtime (Audio, Cached),0.4,,0.0000004,
-https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Realtime audio),10,20,0.00001,0.00002
-https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Audio, Cached),0.3,,0.0000003,
-https://openai.com/api/pricing/,OpenAI,gpt-realtime (Realtime image input only),5,,0.000005,
-https://openai.com/api/pricing/,OpenAI,gpt-realtime (Image, Cached),0.5,,0.0000005,
-https://openai.com/api/pricing/,OpenAI,gpt-realtime-mini (Realtime image input only),0.8,,0.0000008,
-https://openai.com/api/pricing/,OpenAI,gpt-image-1.5 (Image Gen text),5,10,0.000005,0.00001
-https://openai.com/api/pricing/,OpenAI,GPT-image-1.5 (Text, Cached),1.25,,0.00000125,
-https://openai.com/api/pricing/,OpenAI,gpt-image-1 (Image Gen text input only),5,,0.000005,
-https://openai.com/api/pricing/,OpenAI,GPT-image-1 (Text, Cached),1.25,,0.00000125,
-https://openai.com/api/pricing/,OpenAI,gpt-image-1-mini (Image Gen text input only),2,,0.000002,
-https://openai.com/api/pricing/,OpenAI,GPT-image-1-mini (Text, Cached),0.2,,0.0000002,
-https://openai.com/api/pricing/,OpenAI,gpt-image-1.5 (Image Gen image),8,32,0.000008,0.000032
-https://openai.com/api/pricing/,OpenAI,GPT-image-1.5 (Image, Cached),2,,0.000002,
-https://openai.com/api/pricing/,OpenAI,gpt-image-1 (Image Gen image),10,40,0.00001,0.00004
-https://openai.com/api/pricing/,OpenAI,gpt-image-1-mini (Image Gen image),2.5,8,0.0000025,0.000008
-https://openai.com/api/pricing/,OpenAI,sora-2 (output USD/second),,0.1,,
-https://openai.com/api/pricing/,OpenAI,sora-2-pro (720p output USD/second),,0.3,,
-https://openai.com/api/pricing/,OpenAI,sora-2-pro (1080p output USD/second),,0.5,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-preview (standard <=200k),2,12,0.000002,0.000012
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-preview (<=200k, caching),0.2,,0.0000002,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-preview (standard >200k),4,18,0.000004,0.000018
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-preview (>200k, caching),0.4,,0.0000004,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-preview (batch <=200k),1,6,0.000001,0.000006
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-preview (batch >200k),2,9,0.000002,0.000009
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-flash-preview (standard text/image/video),0.5,3,0.0000005,0.000003
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-flash-preview (text/image/video, caching),0.05,,0.00000005,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-flash-preview (standard audio),1,3,0.000001,0.000003
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-flash-preview (audio, caching),0.1,,0.0000001,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-flash-preview (batch text/image/video),0.25,1.5,0.00000025,0.0000015
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-flash-preview (batch audio),0.5,1.5,0.0000005,0.0000015
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-image-preview (standard output=text),2,12,0.000002,0.000012
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-image-preview (standard output=image),2,120,0.000002,0.00012
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-image-preview (batch output=text),1,6,0.000001,0.000006
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-image-preview (batch image; USD/image),0.0006,0.067,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-3-pro-image-preview (batch image 2k/4k; USD/image),0.0006,0.12,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro (standard <=200k),1.25,10,0.00000125,0.00001
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro (<=200k, caching),0.125,,0.000000125,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro (standard >200k),2.5,15,0.0000025,0.000015
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro (>200k, caching),0.25,,0.00000025,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro (batch <=200k),0.625,5,0.000000625,0.000005
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro (batch >200k),1.25,7.5,0.00000125,0.0000075
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash (standard text/image/video),0.3,2.5,0.0000003,0.0000025
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash (text/image/video, caching),0.03,,0.00000003,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash (standard audio),1,2.5,0.000001,0.0000025
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash (audio, caching),0.1,,0.0000001,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash (batch text/image/video),0.15,1.25,0.00000015,0.00000125
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash (batch audio),0.5,1.25,0.0000005,0.00000125
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-preview-09-2025 (standard text/image/video),0.3,2.5,0.0000003,0.0000025
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-preview-09-2025 (standard audio),1,2.5,0.000001,0.0000025
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-preview-09-2025 (batch text/image/video),0.15,1.25,0.00000015,0.00000125
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-preview-09-2025 (batch audio),0.5,1.25,0.0000005,0.00000125
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite (standard text/image/video),0.1,0.4,0.0000001,0.0000004
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite (text/image/video, caching),0.01,,0.00000001,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite (standard audio),0.3,0.4,0.0000003,0.0000004
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite (audio, caching),0.03,,0.00000003,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite (batch text/image/video),0.05,0.2,0.00000005,0.0000002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite (batch audio),0.15,0.2,0.00000015,0.0000002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite-preview-09-2025 (standard text/image/video),0.1,0.4,0.0000001,0.0000004
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite-preview-09-2025 (standard audio),0.3,0.4,0.0000003,0.0000004
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite-preview-09-2025 (batch text/image/video),0.05,0.2,0.00000005,0.0000002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-lite-preview-09-2025 (batch audio),0.15,0.2,0.00000015,0.0000002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-native-audio-preview-12-2025 (text tokens),0.5,2,0.0000005,0.000002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-native-audio-preview-12-2025 (audio/video tokens),3,12,0.000003,0.000012
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-image (standard output USD/image),0.3,0.039,0.0000003,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-image (batch output USD/image),0.15,0.0195,0.00000015,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-preview-tts (standard),0.5,10,0.0000005,0.00001
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-flash-preview-tts (batch),0.25,5,0.00000025,0.000005
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro-preview-tts (standard),1,20,0.000001,0.00002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-pro-preview-tts (batch),0.5,10,0.0000005,0.00001
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.0-flash (standard text/image/video),0.1,0.4,0.0000001,0.0000004
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.0-flash (standard audio),0.7,0.4,0.0000007,0.0000004
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.0-flash (batch text/image/video),0.05,0.2,0.00000005,0.0000002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.0-flash (batch audio),0.35,0.2,0.00000035,0.0000002
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.0-flash-lite (standard),0.075,0.3,0.000000075,0.0000003
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.0-flash-lite (batch),0.0375,0.15,0.0000000375,0.00000015
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,imagen-4.0-generate-001 (output USD/image),,0.04,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,imagen-4.0-ultra-generate-001 (output USD/image),,0.06,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,imagen-4.0-fast-generate-001 (output USD/image),,0.02,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,veo-3.1-generate-preview (720p/1080p output USD/second),,0.4,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,veo-3.1-generate-preview (4k output USD/second),,0.6,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,veo-3.1-fast-generate-preview (720p/1080p output USD/second),,0.25,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,veo-3.1-fast-generate-preview (4k output USD/second),,0.4,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,veo-3.0-generate-001 (output USD/second),,0.4,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,veo-3.0-fast-generate-001 (output USD/second),,0.15,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,veo-2.0-generate-001 (output USD/second),,0.35,,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-embedding-001 (standard input only),0.15,,0.00000015,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-embedding-001 (batch input only),0.075,,0.000000075,
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-robotics-er-1.5-preview (standard text/image/video),0.3,2.5,0.0000003,0.0000025
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-robotics-er-1.5-preview (standard audio),1,2.5,0.000001,0.0000025
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-computer-use-preview-10-2025 (<=200k),1.25,10,0.00000125,0.00001
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemini-2.5-computer-use-preview-10-2025 (>200k),2.5,15,0.0000025,0.000015
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemma-3,0,0,0,0
-https://ai.google.dev/gemini-api/docs/pricing?hl=zh-cn,Google,gemma-3n,0,0,0,0
+https://openai.com/api/pricing/,OpenAI,o4-mini (Reinforcement fine-tuning training),100 USD/hr,,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-pro-preview (standard <=200k),2,12,0.000002,0.000012
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-pro-preview (<=200k caching),0.2,,0.0000002,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-pro-preview (standard >200k),4,18,0.000004,0.000018
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-pro-preview (>200k caching),0.4,,0.0000004,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-lite-preview (standard text/image/video),0.25,1.5,0.00000025,0.0000015
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-lite-preview (text/image/video caching),0.025,,0.000000025,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-lite-preview (standard audio),0.5,1.5,0.0000005,0.0000015
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-lite-preview (audio caching),0.05,,0.00000005,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-live-preview (text),0.75,4.5,0.00000075,0.0000045
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-live-preview (audio input),3,12,0.000003,0.000012
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-live-preview (image/video input),1,4.5,0.000001,0.0000045
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-image-preview (standard text/image input),0.5,3,0.0000005,0.000003
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-image-preview (image output USD/1M tokens),,60,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3.1-flash-tts-preview (standard),1,20,0.000001,0.00002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3-flash-preview (standard text/image/video),0.5,3,0.0000005,0.000003
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3-flash-preview (text/image/video caching),0.05,,0.00000005,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3-flash-preview (standard audio),1,3,0.000001,0.000003
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3-flash-preview (audio caching),0.1,,0.0000001,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3-pro-image-preview (standard text/image input),2,12,0.000002,0.000012
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-3-pro-image-preview (image output USD/1M tokens),,120,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro (standard <=200k),1.25,10,0.00000125,0.00001
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro (<=200k caching),0.125,,0.000000125,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro (standard >200k),2.5,15,0.0000025,0.000015
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro (>200k caching),0.25,,0.00000025,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro (batch <=200k),0.625,5,0.000000625,0.000005
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro (batch >200k),1.25,7.5,0.00000125,0.0000075
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash (standard text/image/video),0.3,2.5,0.0000003,0.0000025
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash (text/image/video caching),0.03,,0.00000003,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash (standard audio),1,2.5,0.000001,0.0000025
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash (audio caching),0.1,,0.0000001,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash (batch text/image/video),0.15,1.25,0.00000015,0.00000125
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash (batch audio),0.5,1.25,0.0000005,0.00000125
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite (standard text/image/video),0.1,0.4,0.0000001,0.0000004
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite (text/image/video caching),0.01,,0.00000001,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite (standard audio),0.3,0.4,0.0000003,0.0000004
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite (audio caching),0.03,,0.00000003,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite (batch text/image/video),0.05,0.2,0.00000005,0.0000002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite (batch audio),0.15,0.2,0.00000015,0.0000002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite-preview-09-2025 (standard text/image/video),0.1,0.4,0.0000001,0.0000004
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite-preview-09-2025 (text/image/video caching),0.01,,0.00000001,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite-preview-09-2025 (standard audio),0.3,0.4,0.0000003,0.0000004
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite-preview-09-2025 (audio caching),0.03,,0.00000003,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite-preview-09-2025 (batch text/image/video),0.05,0.2,0.00000005,0.0000002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-lite-preview-09-2025 (batch audio),0.15,0.2,0.00000015,0.0000002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-native-audio-preview-12-2025 (text tokens),0.5,2,0.0000005,0.000002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-native-audio-preview-12-2025 (audio/video tokens),3,12,0.000003,0.000012
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-image (standard input),0.3,0.039,0.0000003,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-image (batch input),0.15,0.0195,0.00000015,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-preview-tts (standard),0.5,10,0.0000005,0.00001
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-flash-preview-tts (batch),0.25,5,0.00000025,0.000005
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro-preview-tts (standard),1,20,0.000001,0.00002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-pro-preview-tts (batch),0.5,10,0.0000005,0.00001
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.0-flash (standard text/image/video) [deprecated],0.1,0.4,0.0000001,0.0000004
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.0-flash (standard audio) [deprecated],0.7,0.4,0.0000007,0.0000004
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.0-flash (batch text/image/video) [deprecated],0.05,0.2,0.00000005,0.0000002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.0-flash (batch audio) [deprecated],0.35,0.2,0.00000035,0.0000002
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.0-flash-lite (standard) [deprecated],0.075,0.3,0.000000075,0.0000003
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.0-flash-lite (batch) [deprecated],0.0375,0.15,0.0000000375,0.00000015
+https://ai.google.dev/gemini-api/docs/pricing,Google,imagen-4.0-generate-001 (output USD/image),,0.04,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,imagen-4.0-ultra-generate-001 (output USD/image),,0.06,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,imagen-4.0-fast-generate-001 (output USD/image),,0.02,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.1-generate-preview (720p/1080p output USD/second),,0.4,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.1-generate-preview (4k output USD/second),,0.6,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.1-fast-generate-preview (720p output USD/second),,0.1,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.1-fast-generate-preview (1080p output USD/second),,0.12,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.1-fast-generate-preview (4k output USD/second),,0.3,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.1-lite-generate-preview (720p output USD/second),,0.05,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.1-lite-generate-preview (1080p output USD/second),,0.08,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.0-generate-001 (output USD/second),,0.4,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.0-fast-generate-001 (720p output USD/second),,0.1,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.0-fast-generate-001 (1080p output USD/second),,0.12,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-3.0-fast-generate-001 (4k output USD/second),,0.3,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,veo-2.0-generate-001 (output USD/second),,0.35,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,lyria-3-clip-preview (30s clip USD/song),,0.04,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,lyria-3-pro-preview (full song USD/song),,0.08,,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-embedding-2 (text input only),0.2,,0.0000002,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-embedding-2 (image input only),0.45,,0.00000045,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-embedding-2 (audio input only),6.5,,0.0000065,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-embedding-2 (video input only),12,,0.000012,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-embedding-001 (standard input only),0.15,,0.00000015,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-embedding-001 (batch input only),0.075,,0.000000075,
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-robotics-er-1.6-preview (standard text/image/video),1,5,0.000001,0.000005
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-robotics-er-1.6-preview (standard audio),2,5,0.000002,0.000005
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-robotics-er-1.5-preview (standard text/image/video),0.3,2.5,0.0000003,0.0000025
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-robotics-er-1.5-preview (standard audio),1,2.5,0.000001,0.0000025
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-computer-use-preview-10-2025 (<=200k),1.25,10,0.00000125,0.00001
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemini-2.5-computer-use-preview-10-2025 (>200k),2.5,15,0.0000025,0.000015
+https://ai.google.dev/gemini-api/docs/pricing,Google,gemma-4,0,0,0,0
